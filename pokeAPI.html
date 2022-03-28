@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>pokedex LauncjX</title>
+    <script src="./pokedex.js"></script>
+</head>
+    <body>
+        <div class="carcasa2">
+            <!-- Stats Display -->
+            <div class="statsDiv">
+                    <h2 class="type">Tipo:</h2>
+                    <h2 class="type type2" id="pType"></h2>
+                <div class="stats">
+                    <div class="statsNum">
+                        <h3 id="statsPS">0</h3>
+                    </div>
+                    <div class="statsText">
+                        <h2 class="statsName">PS</h2>
+                    </div>
+                </div>
+                <div class="stats statsATK">
+                    <div class="statsNum">
+                        <h3 id="statsATK">0</h3>
+                    </div>
+                    <div class="statsText">
+                        <h2 class="statsName">ATK</h2>
+                    </div>
+                </div>
+                <div class="stats statsDEF">
+                    <div class="statsNum">
+                        <h3 id="statsDEF">0</h3>
+                    </div>
+                    <div class="statsText">
+                        <h2 class="statsName">DEF</h2>
+                    </div>
+                </div>
+                <div class="stats statsSPATK">
+                    <div class="statsNum">
+                        <h3 id="statsSPATK">0</h3>
+                    </div>
+                    <div class="statsText">
+                        <h2 class="statsName">S.ATK</h2>
+                    </div>
+                </div>
+                <div class="stats statsSPDEF">
+                    <div class="statsNum">
+                        <h3 id="statsSPDEF">0</h3>
+                    </div>
+                    <div class="statsText">
+                        <h2 class="statsName">S.DEF</h2>
+                    </div>
+                </div>
+                <div class="stats statsSPEED">
+                    <div class="statsNum">
+                        <h3 id="statsSPEED">0</h3>
+                    </div>
+                    <div class="statsText">
+                        <h2 class="statsName">SPEED</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Se cierra Stats Display -->
+
+            <!-- Movimientos Display -->
+
+            <div class="underStatsDiv">
+                <div><h3 class="movimientos" id="movimiento">Movimientos</h3></div>
+            </div>
+
+            <!-- Se Cierra movientos Display-->
+        </div>
+        <div class="carcasa">
+            <!-- Decoración -->
+            <div class="bisagra"></div>
+            <div class="circuloBlanco">
+                <div class="circuloAzulFuerte">
+                    <div class="circuloAzulClaro">
+                        <div class="circuloBrillo"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Se cierra Decoracion -->
+
+            <!-- Sprite Display -->
+            <div class="grisDiv">
+                <div class="imgDiv">
+                    <img class="img" src="./pics/pokeball.png" alt="pokemon" id="pokeImg"><br>
+                </div>
+                <div class="nombreDiv">
+                    <h1 class="nombre" id="pName">PokeName</h1>
+                </div>
+            </div>
+
+            <!-- Se cierra Sprite Display -->
+
+            <!-- Decoración under Display -->
+            
+            <div class="circuloPalanca" >
+                <button class="circuloPalancaClaro" type="submit" onclick="fetchPokemon()"></button>
+            </div>
+            <div class="cruceta"></div>
+            <div class="cruceta2"></div>
+
+            <!-- Se cierra decoracion under Display -->
+
+            <div class="busquedaDiv">
+                <input class="busqueda" type="text" placeholder="pokemon..." name="pokeName" id="pokeName">
+            </div>
+        </div>
+
+    </body>
+</html>

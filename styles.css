@@ -1,0 +1,286 @@
+h3{
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #C4B616; text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 250%;
+}
+.statsName{
+    margin: auto;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #C4B616; text-shadow: black 0.1em 0.1em 0.2em;
+}
+.carcasa{
+    border-radius: 15px;
+    display: flex;
+    width: 800px;
+    height: 1000px;
+    background-color: #BD0F34;
+
+}
+.carcasa2{
+    border-radius: 15px;
+    display: flex;
+    width: 700px;
+    height: 750px;
+    background-color: #BD0F34;
+    position: absolute;
+    top: 250px;
+    left: 800px;
+}
+
+/* Division de stats */
+
+.statsDiv{
+    border-radius: 10px;
+    display: flex;
+    width: 500px;
+    height: 250px;
+    background-color: #032D29;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.type{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: #C4B616; text-shadow: black 0.1em 0.1em 0.2em;
+    position: absolute;
+    left: 25px;
+}
+.type2{
+    position: absolute;
+    left: 100px;
+}
+
+.stats{
+    border-radius: 0px;
+    display: flex;
+    width: 50px;
+    height: 75px;
+    background-color: none;
+    position: absolute;
+    left: 25px;
+    top: 150px;
+}
+.statsNum{
+    border-radius: 0px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color:none;
+    position: absolute;
+    top: 0px;
+}
+.statsText{
+    border-radius: 0px;
+    display: flex;
+    width: 50px;
+    height: 25px;
+    background-color: none;
+    position: absolute;
+    bottom: 0px;
+}
+.statsATK{
+    position: absolute;
+    left: 100px;
+}
+.statsDEF{
+    position: absolute;
+    left: 175px;
+}
+.statsSPATK{
+    position: absolute;
+    left: 250px;
+}
+.statsSPDEF{
+    position: absolute;
+    left: 325px;
+}
+.statsSPEED{
+    position: absolute;
+    left: 400px;
+}
+/* Cerramos display de stats */
+
+/* Display para movimientos */
+.underStatsDiv{
+    border-radius: 15px;
+    display: flex;
+    width: 500px;
+    height: 125px;
+    background-color: #009DD4;
+    position: absolute;
+    left: 100px;
+    top: 375px;
+}
+.movimientos{
+    position: absolute;
+    top: 30px;
+    left: 30%;
+}
+/* Cerramos display de movimentos */
+
+.bisagra{
+    border-radius: 50px;
+    display: flex;
+    width: 100px;
+    height: 1000px;
+    background-color: #CE1131;
+    position: absolute;
+    left: 700px;
+}
+
+/* Decoracion */
+
+.circuloBlanco{
+    border-radius: 100%;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: #DEDEDE;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.circuloAzulFuerte{
+    margin: auto;
+    border-radius: 100%;
+    display: flex;
+    width: 75px;
+    height: 75px;
+    background-color: #009DD4;
+}
+.circuloAzulClaro{
+    border-radius: 100%;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: #0BCDFF;
+    position: absolute;
+    left: 25px;
+    top: 15px;
+}
+.circuloBrillo{
+    border-radius: 100%;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: #96e7fb;
+    position: absolute;
+    left: 25px;
+    top: 15px;
+}
+
+/* Cierre decoracion */
+
+/* Sprite Display */
+.grisDiv{
+    border-radius: 15px;
+    display: flex;
+    width: 500px;
+    height: 400px;
+    background-color: #DEDEDE;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+.imgDiv{
+    border-radius: 15px;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    background-color: #F1F2D3;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.img{
+    margin: auto;
+    width: 250px;
+
+}
+.nombreDiv{
+    display: flex;
+    width: 400px;
+    height: 50px;
+    background-color: #F1F2D3;
+    position: absolute;
+    top: 289px;
+    left: 50px;
+}
+.nombre{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    margin: auto;
+}
+
+/* Se cierra Sprite Display */
+
+/* Decoraciones bajo Sprite Display */
+.circuloPalanca{
+    border-radius: 100%;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: #032D29;
+    position: absolute;
+    bottom: 65px;
+    left: 50px;
+}
+.circuloPalancaClaro{
+    border-radius: 100%;
+    display: flex;
+    width: 85px;
+    height: 85px;
+    background-color: #035048;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.cruceta{
+    border-radius: 10px;
+    width: 50px;
+    height: 150px;
+    background-color: #032D29;
+    position: absolute;
+    bottom: 0px;
+    left: 475px;
+}
+.cruceta2{
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: #032D29;
+    position: absolute;
+    bottom: 50px;
+    left: 425px;
+}
+
+/* se cierra Decoraciones bajo Display */
+
+/* Se abre cuadro de busqueda */
+
+.busquedaDiv{
+    border-radius: 10px;
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #55AB62;
+    position: absolute;
+    top: 900px;
+    left: 125px;
+}
+.busqueda{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 150%;
+    color: #032D29;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    background-color: #55AB62;
+}
